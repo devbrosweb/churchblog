@@ -1,0 +1,32 @@
+.img-blog{
+    width: 100%;
+    height: 350px;
+}
+.img-blog img{
+    width: 100%;
+    height: 100%;
+}
+.trans{
+    /*-webkit-transition: 1s;*/
+    /*-moz-transition: 1s;*/
+    /*-ms-transition: 1s;*/
+    /*-o-transition: 1s;*/
+    transition: 3s all;
+}
+
+.panels{
+    min-height: 800px;
+    overflow: hidden;
+}
+.panel{
+    background: #6BDf9c;
+    color: #ffffff;
+    box-shadow: inset 0 0 5px rgba(255,255,255, 0.1);
+    text-align: center;
+    align-items: center;
+}
+.panel p{
+    text-transform: uppercase;
+    font-family: 'Amatic Sc', Cursiva;
+    text-shadow: 0 0 4px rgba(0,0,0,);
+}
